@@ -1,0 +1,7 @@
+import React from "react";
+export const Arrow = () => (
+    <svg width="24" height="24" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="48" rx="24" transform="matrix(1 0 0 -1 0 48.5)" fill="#F37335"/>
+    <path d="M29.3379 27.9556L17.8824 16.5L16 18.3823L27.4556 29.8379H17.3587V32.5H32V17.8587H29.3379V27.9556Z" fill="white"/>
+    </svg>
+);

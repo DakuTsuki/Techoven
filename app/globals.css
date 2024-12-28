@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate__animated {
+  --animate-duration: 2s;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-sf
+}
+body {
+  font-family: "Nunito", sans-serif ;
+}
+
+.services {
+  background-image: url("../public/services.png");
+  @apply bg-center bg-no-repeat
+}
+
+@layer utilities {
+
+  .btn-orange { 
+    @apply  bg-orange-10 lg:px-7 lg:py-3 font-medium px-5 py-2 text-white-10 transition-all hover:opacity-90 border-orange-10 rounded-md
+  }
+  .btn-orange:hover { 
+    @apply border-orange-10 text-orange-10 font-medium  bg-transparent transition-all  
+  }
+  .btn-orange-outline  { 
+    @apply border-orange-10 text-base lg:text-lg lg:px-8 lg:py-3 text-orange-10 font-medium  bg-transparent px-5 py-2 transition-all hover:border-opacity-70 hover:text-opacity-70 rounded-md
+  }
+  .btn-orange-outline:hover  { 
+    @apply bg-orange-10  text-white-10 transition-all  border-orange-10
+  }
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+  .contact-form::before {
+    content: "";
+    @apply w-[1px] h-full absolute left-0 right-0 m-auto bg-lightGray-10 hidden md:block
+  
+  }
+  .contact-form::after {
+    content: "";
+    @apply w-full h-[1px] absolute left-0 bg-lightGray-10 -bottom-16 hidden md:block
+  
+  }
+  .web-dev-list {
+    @apply flex items-center gap-2 mb-2
+  }
+  .faq {
+    margin: 15px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  .faq-question {
+    position: relative;
+    font-size: 20px;
+    padding-right: 80px;
+    transition: all 0.4s ease;
+  }
+}
+.faq-answer {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.faq.open .faq-question {
+  margin-bottom: 15px;
+}
+.faq.open .faq-answer {
+  max-height: 1000px;
+  opacity: 1;
+}
+.add-shadow {
+  box-shadow: 10px 20px 30px rgba(243, 115, 53, 0.1), -10px 20px 20px rgba(243, 115, 53, 0.2);
+}
+
+.hero-img::after {
+  content: "";
+  background: #fc4a1a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(13, 97%, 55%, 0.7), hsla(40, 92%, 58%, 0.7)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(13, 97%, 55%, 0.7), hsla(40, 92%, 58%, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  @apply w-full h-full absolute top-0 left-0 bg-opacity-50 z-10
+}
+.more-card::after {
+  content: "";
+  @apply w-full h-full absolute top-0 left-0 bg-opacity-50 z-10 bg-black-10 
+}
+.mobile-menu-button {
+  @apply flex items-center justify-center w-8 h-8 bg-gray-200 hover:bg-gray-300 rounded-full;
+}
+
+.mobile-menu-button svg {
+  @apply w-6 h-6 stroke-current;
+}
+
+.price-card {
+  background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc4a1a, #f7b733 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* Mobile menu functionality */
+.mobile-menu-button:checked ~ .mobile-menu {
+  @apply block;
+}
+
+.mobile-menu {
+  @apply hidden p-4 pt-0 bg-gray-100 rounded-md shadow-md;
+}
+
+.mobile-menu a {
+  @apply block p-4 text-sm text-gray-600 hover:text-gray-900;
+}
+
+div.slide {
+  display: none;
+}
+div.activeSlide {
+  display: block;
+}
+div.nextSlide {
+  
+}
