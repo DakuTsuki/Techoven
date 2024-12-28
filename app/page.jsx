@@ -140,22 +140,6 @@ export default function Home() {
               solutions that accelerate business growth, nurture employee
               engagement, and enrich customer experiences.
             </p>
-            <div className=" pt-10 flex items-center justify-start gap-5 md:justify-center">
-              <Link href={"/services"}>
-                <Button
-                  title={"Our Services"}
-                  type={"button"}
-                  variant={"btn-orange"}
-                />
-              </Link>
-              <Link href={"/academy"}>
-                <Button
-                  title={"Our Training"}
-                  type={"button"}
-                  variant={"btn-orange-outline"}
-                />
-              </Link>
-            </div>
           </div>
         </div>
       </section>
