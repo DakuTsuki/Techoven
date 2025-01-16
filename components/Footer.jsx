@@ -30,12 +30,12 @@ export default function Footer() {
             <Image src={logo} width={200} height={50} alt="TechCoven log" />
           </Link>
           <p className=' text-lg mt-5 text-gray-10'>
-          A digital software company located in Lagos. We provide Web Design & Development, Branding, Search Engine Optimization, Digital Marketing, UI/UX designs, Mobile App Development services.
+          Techcoven bootcamp education prepares students for fulfilling careers in tech and beyond with immersive technologies that power the future. our rigorous curriculum prepares students to work with top-tier tech giants, innovative startups, and companies and organizations of all sizes across the nation.
           </p>
         </div>
 
         <div className=' flex gap-20 items-center flex-wrap'>
-        <ul className=' flex items-left gap-4 flex-col text-gray-10'>
+        {/* <ul className=' flex items-left gap-4 flex-col text-gray-10'>
             <p className=' mb-5 text-white-10 font-medium'>Company</p>
             <Link href={"/"} className=' hover:text-orange-10 transition-all'>Home</Link>
             <Link href={"/about"} className=' hover:text-orange-10 transition-all'>About us</Link>
@@ -48,7 +48,7 @@ export default function Footer() {
             <Link href={"/programs/tech4japa"} className=' hover:text-orange-10 transition-all'>Tech4japa</Link>
             <Link href={"/programs/tech2jobs"} className=' hover:text-orange-10 transition-all'>Tech2jobs</Link>
             <Link href={"/programs/corps2tech"} className=' hover:text-orange-10 transition-all'>Corps2tech</Link>
-        </ul>
+        </ul> */}
         </div>
         <div className=' flex gap-20 items-start flex-wrap'>
         <ul className=' flex items-left gap-4 flex-col text-gray-10'>

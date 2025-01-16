@@ -35,7 +35,7 @@ export default function ContactUs() {
                 <p className=" font-medium text-xl">Phone</p>
               </div>
               <p className=" w-full border border-bg-lightGray-10-10 px-2 py-2 text-base">
-                <span>+2348166301570</span>
+                <span>08166301570</span>
               </p>
             </div>
 
@@ -45,7 +45,7 @@ export default function ContactUs() {
                 <p className=" font-medium text-xl">Whatsapp</p>
               </div>
               <p className=" w-full border border-bg-lightGray-10-10 px-2 py-2 text-base">
-                <span>+2347053338151</span>
+                <span>07053338151</span>
               </p>
             </div>
 
@@ -55,7 +55,7 @@ export default function ContactUs() {
                 <p className=" font-medium text-xl">E-mail</p>
               </div>
               <p className=" w-full border border-bg-lightGray-10-10 px-2 py-2 text-base">
-                <span>Hello@leumaxtechnology.com</span>
+                <span>hello@techcovenafrica</span>
               </p>
             </div>
 
@@ -65,7 +65,7 @@ export default function ContactUs() {
                 <p className=" font-medium text-xl">Location</p>
               </div>
               <p className=" w-full border border-bg-lightGray-10-10 px-2 py-2 text-base">
-                <span>13 Thorborn Ave, Sabo yaba, Lagos 101245, Lagos</span>
+                <span>Address: 5, Shiro street, before jupeb, agip, Fadeyi. Lagos</span>
               </p>
             </div>
           </div>

@@ -25,7 +25,7 @@ const sf = localfont ({
 
 
 export const metadata = {
-  title: 'TechOven',
+  title: 'TechCoven',
   description: 'We offer high in demand tech courses such as Fullstack Website Development course, Product Design (UI/UX), Data Science/Analysis, Cyber Security and Frontend Engineering.',
 }
 

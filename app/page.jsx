@@ -125,20 +125,19 @@ export default function Home() {
           lg:max-w-[1200px] px-5 md:px-0 flex flex-col  md:m-auto lg:px-16"
           >
             <p className="border text-sm border-orange-10 absolute -top-10 justify-start  flex md:justify-center md:self-center px-2 rounded-full">
-              We Build To Last
+            Learn the job, Get the job.
+
             </p>
             <h1 className="lg:text-5xl md:text-5xl text-3xl">
               {/* From ideation to value{" "} */}
-              We are connecting
+              Get into tech from scratch!
               <span className=" block font-bold">
                 {" "}
-                People, Technology & Data
+                No experience required.
               </span>
             </h1>
             <p className="max-w-2xl m-auto pt-5 hero-text">
-              We connect your ideas with digital reality, creatng impactful
-              solutions that accelerate business growth, nurture employee
-              engagement, and enrich customer experiences.
+            Transform your career with Techcoven Bootcamps. Our immersive web development courses are designed for busy individuals ready to break into tech. Start building your future today!
             </p>
           </div>
         </div>

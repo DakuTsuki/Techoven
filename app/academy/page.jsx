@@ -27,12 +27,12 @@ export default function Academy() {
         />
         <div className=" text-white-10 absolute left-0 right-0 z-30 m-auto top-0 bottom-0 px-5 lg:px-16 flex flex-col items-center justify-center max-w-[700px] text-center">
           <h2 className=" lg:text-5xl md:text-4xl font-medium leading-normal text-3xl">
-            TechOven Academy
+            TechCoven Academy
           </h2>
           <p className=" mt-5">
-            Learning on your own falls short for so many people. That’s why
-            Leumax Academy surrounds you with a circle of human support proven
-            to help guide you through your learning journey.
+          Shape your future with tech and AI.  
+          <br/>
+          Join our immersive courses in web development, data, and AI to transform your career and unlock new opportunities.
           </p>
         </div>
       </section>
@@ -547,7 +547,7 @@ export default function Academy() {
               Data Science or Web Development in 4 months or less.
             </p>
           </div>
-          
+
           <div className=" max-w-[300px] md:max-w-[31%]">
             <span className="text-2xl md:text-3xl lg:text-4xl text-lightGray-10">
               05.
@@ -566,7 +566,7 @@ export default function Academy() {
               06.
             </span>
             <h3 className="text-xl md:text-2xl lg:text-3xl font-medium mt-8">
-            Go Further With Our Industry-Recognized Training
+              Go Further With Our Industry-Recognized Training
             </h3>
             <p className="  text-sm md:text-base pt-2">
               Don’t miss the opportunity to gain in-demand skills. The new you
