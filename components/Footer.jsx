@@ -30,8 +30,7 @@ export default function Footer() {
             <Image src={logo} width={200} height={50} alt="TechCoven log" />
           </Link>
           <p className=' text-lg mt-5 text-gray-10'>
-          Techcoven bootcamp education prepares students for fulfilling careers in tech and beyond with immersive technologies that power the future. our rigorous curriculum prepares students to work with top-tier tech giants, innovative startups, and companies and organizations of all sizes across the nation.
-          </p>
+          Our rigorous curriculum prepares students to work with top-tier tech giants, innovative startups, and companies and organizations of all sizes across the nation.   </p>
         </div>
 
         <div className=' flex gap-20 items-center flex-wrap'>
