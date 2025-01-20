@@ -3,6 +3,7 @@ import './globals.css'
 import Footer from '@/components/Footer'
 import localfont from 'next/font/local'
 import Image from 'next/image';
+import favicon from '@/public/TECHCOVEN-PNG.png';
 import whatsapp from "@/public/whatsapp2.svg";
 
 const sf = localfont ({
@@ -32,6 +33,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${sf.variable}`}>
+      <link rel="icon" href={favicon}/>
       <body className=" min-h-screen text-black-10"> 
         <Navbar />
         <main className=' relative top-[70px]'>
