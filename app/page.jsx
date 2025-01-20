@@ -137,7 +137,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="max-w-2xl m-auto pt-5 hero-text">
-            Transform your career with Techcoven Bootcamps. Our immersive web development courses are designed for busy individuals ready to break into tech. Start building your future today!
+            Transform your career with Techcoven Academy. Our immersive web development courses are designed for busy individuals ready to break into tech. Start building your future today!
             </p>
           </div>
         </div>
